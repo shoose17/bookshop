@@ -1,0 +1,23 @@
+-- Create sequence 
+create sequence SEQ_BOOKS
+minvalue 1
+maxvalue 999999999999999999
+start with 161
+increment by 1
+cache 20;
+
+
+
+create sequence SEQ_OID
+minvalue 1
+maxvalue 999999999999999999999999999
+start with 1021
+increment by 1
+cache 20;
+
+create sequence SEQ_ITEMS
+minvalue 1
+maxvalue 999999999999999999999999999
+start with 1010
+increment by 1
+cache 20;
